@@ -1,0 +1,26 @@
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    color: white;
+    gap: 3rem;
+    margin: 1rem auto;
+    width: max-content;
+
+}
+.heading{
+    text-align: center; 
+    text-decoration: underline;
+    padding: 2rem 0.5rem;  
+}
+.content{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+@media screen and (max-width:740px) {
+.icons{
+    flex-direction: column;
+}
+    
+}
